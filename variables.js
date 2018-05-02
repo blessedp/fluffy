@@ -26,3 +26,11 @@ function multiply (z,m){
 }
 bruno = multiply(34,6);
 console.log(bruno);
+function division(c,d) {
+    e = c/d ;
+    return e;
+}
+keith = division(34,6);
+console.log(keith);
+    
+
