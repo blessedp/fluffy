@@ -32,5 +32,11 @@ function division(c,d) {
 }
 keith = division(34,6);
 console.log(keith);
+function modulus(f,g){
+    h = f%g;
+    return h;
+}
+patricia = modulus(34,6);
+console.log(patricia);
     
 
