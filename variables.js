@@ -2,9 +2,27 @@
 //result = 5+5*10;
 //result = (5+5)* 10;
 //console.log(result);
-var x =5;
-var y = '5';
+/*var age = 0;
 
-if (x===y){
-    console.log("They are equal");
+while (age < 11){
+    console.log(age);
+    age ++;
+    //age += 1
+    //age = age + 1
+}*/
+function startSession(){
+    console.log ('Session started');
 }
+startSession();
+function sum(x,y){
+    j = x+y;
+    return j;
+}
+paul= sum(34,6);
+console.log(paul);
+function multiply (z,m){
+    b =z*m;
+    return b;
+}
+bruno = multiply(34,6);
+console.log(bruno);
