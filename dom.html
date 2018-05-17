@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 id="try">still trying</h1>
+        
+        
+        <h2>My first page </h2>
+        <p>Hello World</p>
+        <p> The DOM is very useful</p>
+        <p>This example demonstrates the <b>getElementByTagName</b> method</p>
+        <p id="demo"></p>
+        <p id ="that"></p>
+        <p id ="cow"></p>
+       <script>
+           var myElement = document.getElementById("try");
+           var x = document.getElementsByTagName('p');
+           document.getElementById("that").innerHTML ="The first paragraph(index 0) is"+ x[0].innerHTML;
+           document.getElementById("demo").innerHTML= "Hello World!"+ myElement.innerHTML;
+           var Samsung = "";//[];
+           for(i =0; i< x.length; i++)
+           {
+                Samsung += x[i].innerHTML;
+              // Samsung.push(x[i].innerHTML);
+           }
+           document.getElementById("cow").innerHTML = Samsung;
+
+
+          
+           
+            </script>
+            
+        </body>
+        </html>

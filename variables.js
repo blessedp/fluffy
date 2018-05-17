@@ -38,5 +38,6 @@ function modulus(f,g){
 }
 patricia = modulus(34,6);
 console.log(patricia);
+
     
 
